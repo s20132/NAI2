@@ -65,7 +65,6 @@ public class Perceptron {
 
                     // jezeli globalerror bedzie 0 to wagi tez beda 0
                     globalError += (localError * localError);
-                    //theta += localError * alpha;
               }
             }
 
